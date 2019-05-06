@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.leoparddata.cordova.itunesfilesharing"
+        version="1.0.0">
+
+  <name>Enable iOS iTunes file sharing in Plist file</name>
+  <description>iOS plugin for a custom Plist addition</description>
+  <platform name="ios">
+    <config-file target="*-Info.plist" parent="UIFileSharingEnabled">
+      <true/>
+    </config-file>
+  </platform>
+</plugin>

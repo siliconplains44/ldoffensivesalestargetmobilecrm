@@ -1,0 +1,22 @@
+﻿<ion-view view-title="Phone Numbers">
+    <ion-content class="padding">
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddPhoneNumber()">Add Phone Number</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="phonenumber in phonenumbers">
+                    <button class="button button-standard button-small" ng-click="onEditPhoneNumber(phonenumber)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeletePhoneNumber(phonenumber)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h3>{{phonenumber.Number}}</h3>
+                    <hr />
+                    <h4>{{phonenumber.Type}}</h4>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,18 @@
+﻿<ion-view view-title="Edit Email Address" name="actionchoices-view" hide-back-button="false">
+    <ion-content class="padding">
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Type" ng-model="type" />
+            </label>
+            <hr />
+            <label class="item item-input">
+                <input type="text" placeholder="Email Address" ng-model="address" />
+            </label>
+        </div>
+        <div class="padding">
+            <p ng-show="formaddressrequired">* Address is required</p>
+        </div>
+        <button class="button button-block button-standard icon-left" type="submit" ng-click="onModifyEmailAddress()">Modify Email Address</button>
+
+    </ion-content>
+</ion-view>

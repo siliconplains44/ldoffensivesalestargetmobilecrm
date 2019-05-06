@@ -1,0 +1,19 @@
+﻿<ion-view view-title="Campaigns" >
+    <ion-content class="padding">
+            <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddCampaign()">Add Campaign</button>
+        <p class="padding">Your current teams campaigns...</p>
+        <div>
+            <ion-list>
+                <ion-item ng-repeat="campaign in campaigns">
+                    <h2 class="padding">{{campaign.Name}}</h2>
+                    <button class="button button-standard button-small" ng-click="onEditCampaign(campaign)">
+                        <i class="icon ion-compose"></i>
+                    </button>                    
+                    <button class="button button-standard button-small" ng-click="onDeleteCampaign(campaign)">
+                        <i class="icon ion-ios-minus"></i>
+                    </button>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

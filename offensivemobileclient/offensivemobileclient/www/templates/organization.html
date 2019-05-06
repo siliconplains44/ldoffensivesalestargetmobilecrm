@@ -1,0 +1,18 @@
+﻿<ion-view view-title="Organization">
+    <ion-content class="padding">
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Name" ng-model="name">
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Business Type" ng-model="businesstype">
+            </label>
+        </div>
+        <div class="padding">
+            <p ng-show="formnamerequired">* Name is required</p>
+            <p ng-show="formbusinesstyperequired">* Business Type is required</p>
+        </div>      
+        <button class="button button-block button-standard" type="submit" ng-click="onSaveOrganization()">Save</button>
+
+    </ion-content>
+</ion-view>

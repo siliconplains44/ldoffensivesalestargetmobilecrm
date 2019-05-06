@@ -1,0 +1,25 @@
+<ion-view view-title="Modify Mileage Log Entry" name="actionchoices-view" hide-back-button="false">
+    <ion-content class="padding">
+        <div class="list">
+            <label class="item item-input">
+                <input type="date" placeholder="Occurred" ng-model="occurred" />
+            </label>
+            <label class="item item-input">
+                <textarea placeholder="Description" ng-model="description" rows="10"></textarea>
+            </label>
+            <label class="item item-input">
+                <input type="number" placeholder="Started Mileage" ng-model="startingmileage" />
+            </label>
+            <label class="item item-input">
+                <input type="number" placeholder="Ending Mileage" ng-model="endingmileage" />
+            </label>
+        </div>
+        <div class="padding">
+            <p ng-show="formoccurredrequired">* Occurred is required</p>
+            <p ng-show="formdescriptionrequired">* Description is required</p>
+            <p ng-show="formstartingmileagerequired">* Starting Mileage is required</p>
+            <p ng-show="formendingmileagerequired">* Ending Mileage is required</p>
+        </div>
+        <button class="button button-block button-standard icon-left" type="submit" ng-click="onModifyMileageLogEntry()">Modify Mileage Log Entry</button>
+    </ion-content>
+</ion-view>

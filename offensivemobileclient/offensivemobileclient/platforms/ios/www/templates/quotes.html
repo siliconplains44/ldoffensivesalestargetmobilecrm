@@ -1,0 +1,31 @@
+﻿<ion-view view-title="Quotes">
+    <ion-content class="padding">
+
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddQuote()">Add Quote</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="quote in quotes">
+                    <button class="button button-standard button-small" ng-click="onEditQuote(quote)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteQuote(quote)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h6 class="padding">Created: {{quote.Created | date:'MM/dd/yyyy @ h:mma'}}</h6>
+                    <hr />
+                    <h2>Sent:  {{quote.SentDate | date:'MM/dd/yyyy'}}</h2>
+                    <hr />
+                    <h2>Product Or Service:   {{quote.ProductOrService}}</h2>
+                    <hr />
+                    <h2>Time Frame Type:  {{quote.timeframetypename}}</h2>
+                    <hr />
+                    <h2>Amount:  {{quote.Amount | currency}}</h2>
+                    <hr />
+                    <pre>Notes:  {{quote.Notes}}</pre>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

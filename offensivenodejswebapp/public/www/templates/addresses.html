@@ -1,0 +1,34 @@
+﻿<ion-view view-title="Addresses">
+    <ion-content class="padding">
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddAddress()">Add Address</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="address in addresses">
+                    <button class="button button-standard button-small" ng-click="onEditAddress(address)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteAddress(address)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h3>Name: {{address.Name}}</h3>
+                    <hr />
+                    <h4>Line1: {{address.Line1}}</h4>
+                    <hr />
+                    <h4>Line2: {{address.Line2}}</h4>
+                    <hr />
+                    <h4>City: {{address.City}}</h4>
+                    <hr />
+                    <h4>State: {{address.State}}</h4>
+                    <hr />
+                    <h4>Zip: {{address.Zip}}</h4>
+                    <hr />
+                    <h4>Country: {{address.Country}}</h4>
+                    <hr />
+                    <h4>Type: {{address.Type}}</h4>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

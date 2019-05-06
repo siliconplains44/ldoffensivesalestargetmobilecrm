@@ -1,0 +1,22 @@
+﻿<ion-view view-title="Instant Messenger Accounts">
+    <ion-content class="padding">
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddInstantMessengerAccount()">Add InstantMessengerAccount</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="instantmessengeraccount in instantmessengeraccounts">
+                    <button class="button button-standard button-small" ng-click="onEditInstantMessengerAccount(instantmessengeraccount)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteInstantMessengerAccount(instantmessengeraccount)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h3>{{instantmessengeraccount.Handle}}</h3>
+                    <hr />
+                    <h4>{{instantmessengeraccount.Type}}</h4>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

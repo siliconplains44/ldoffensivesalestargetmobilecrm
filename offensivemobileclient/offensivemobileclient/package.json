@@ -1,0 +1,11 @@
+{
+  "name": "offensive",
+  "version": "0.0.1",
+  "cordovaPlugins": [],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "locator": "browser"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<ion-view view-title="Activities">
+    <ion-content class="padding">
+         <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddActivity()">Add Activity</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="activity in activities">
+                    <button class="button button-standard button-small" ng-click="onEditActivity(activity)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteActivity(activity)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h3 class="padding">Created: {{activity.Created | date:'MM/dd/yyyy @ h:mma'}}</h3>
+                    <hr />
+                    <h2>Activity:  {{activity.ActivityName}}</h2>
+                    <hr />
+                    <h2>Duration:  {{activity.DurationInHours}}</h2>
+                    <hr />
+                    <h2>Attached To:  {{activity.ObjectAttachmentType}}</h2>
+                    <hr />
+                    <h2>Attached Name:  {{activity.ObjectAttachmentName}}</h2>
+                    <hr />
+                    <pre>Description:  {{activity.Description}}</pre>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,24 @@
+﻿<ion-view view-title="Notes">
+    <ion-content class="padding">
+         <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddNote()">Add Note</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="note in notes">
+                    <button class="button button-standard button-small" ng-click="onEditNote(note)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteNote(note)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h6 class="padding">Created: {{note.Created | date:'MM/dd/yyyy @ h:mma'}}</h6>
+                    <hr />
+                    <h6 class="padding">Last Modified: {{note.Modified | date:'MM/dd/yyyy @ h:mma'}}</h6>
+                    <hr />
+                    <pre>{{note.Content}}</pre>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

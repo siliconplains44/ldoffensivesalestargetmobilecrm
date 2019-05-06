@@ -1,0 +1,20 @@
+<ion-view view-title="Edit Sales Target" name="actionchoices-view" hide-back-button="true">
+    <ion-content class="padding">
+
+        <label class="item item-input">
+            <input type="text" placeholder="Name" required ng-model="name">
+        </label>
+        <hr>
+        <ion-list>            
+            <ion-radio ng-model="$parent.choice" ng-value="2">Prospect</ion-radio>
+            <ion-radio ng-model="$parent.choice" ng-value="3">Lead</ion-radio>
+            <ion-radio ng-model="$parent.choice" ng-value="4">Opportunity</ion-radio>
+            <ion-radio ng-model="$parent.choice" ng-value="5">Account</ion-radio>
+            <ion-radio ng-model="$parent.choice" ng-value="6">Inactive</ion-radio>
+        </ion-list>
+        <button class="button button-block button-standard icon-left" type="submit" ng-click="onEditSalesTarget()">Edit Sales Target</button>
+
+            <button class="button icon-left button-block" ng-click="onBack()">Cancel</button>
+
+    </ion-content>
+</ion-view>

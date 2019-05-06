@@ -1,0 +1,33 @@
+﻿<ion-view view-title="Deals">
+    <ion-content class="padding">
+
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddDeal()">Add Deal</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="deal in deals">
+                    <button class="button button-standard button-small" ng-click="onEditDeal(deal)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteDeal(deal)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h6 class="padding">Created: {{deal.Created | date:'MM/dd/yyyy @ h:mma'}}</h6>
+                    <hr />
+                    <h2>Closed:  {{deal.ClosedDate | date:'MM/dd/yyyy'}}</h2>
+                    <hr />
+                    <h2>Product Or Service:   {{deal.ProductOrService}}</h2>
+                    <hr />
+                    <h2>Is Estimate:  {{ deal.IsEstimate | one_zero}}</h2>
+                    <hr />
+                    <!--<h2>Time Frame Type:  {{deal.timeframetypename}}</h2>
+                    <hr />-->
+                    <h2>Amount:  {{deal.Amount | currency}}</h2>
+                    <hr />
+                    <pre>Notes:  {{deal.Notes}}</pre>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

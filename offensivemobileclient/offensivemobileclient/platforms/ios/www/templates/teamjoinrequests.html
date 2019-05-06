@@ -1,0 +1,14 @@
+﻿<ion-view view-title="Team Join Requests">
+    <ion-content class="padding">
+        <ion-list>
+            <ion-item ng-repeat="joinrequest in joinrequests">
+                <h2>Team: {{joinrequest.teamName}}</h2>
+                <p>Handle: {{joinrequest.handleName}}</p>
+                <div class="button-bar">
+                    <a class="button icon-left ion-star button-standard" ng-click="onAuthorizeJoinRequest({{joinrequest}})">Authorize</a>
+                    <a class="button button-assertive" ng-click="onDenyJoinRequest({{joinrequest}})">Deny</a>                   
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

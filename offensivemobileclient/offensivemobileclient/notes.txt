@@ -1,0 +1,30 @@
+﻿I believe this can only be done via a cordova plugin since only plugins can modify plist files. Here are the steps I took using cordova 4.3.0:
+
+Create your plugin directory somewhere, outside your cordova project, let's say in /home/user/. The plugin consists of just one file and the directory structure looks like this:
+
+/home/user/com.mycompany.cordova.itunesfilesharing/
+/home/user/com.mycompany.cordova.itunesfilesharing/plugin.xml
+In the plugin directory you need the plugin.xml file:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.mycompany.cordova.itunesfilesharing"
+        version="1.0.0">
+
+    <name>Enable iOS iTunes file sharing in Plist file</name>
+    <description>iOS plugin for a custom Plist addition</description>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIFileSharingEnabled">
+            <true/>
+        </config-file>
+    </platform>
+</plugin>
+Then you need to add this plugin to your cordova project:
+
+cordova plugin add /home/user/com.mycompany.cordova.itunesfilesharing
+This will copy the plugin into your cordova project. Once added, you will see these added to your plist file:
+
+<key>UIFileSharingEnabled</key>
+<true/>
+That's all I had to do, no config.xml changes needed. Just add the custom plugin. Then such an app will allow to access its Documents directory in iTunes.

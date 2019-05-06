@@ -1,0 +1,120 @@
+﻿<ion-view view-title="My Performance">
+    <ion-content class="padding">
+
+        <h3>Accounts</h3>
+        <hr />
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                <h4>Total Accounts:  <span ng-bind="totalaccounts">10</span></h4>
+            </div>
+        </div>
+        <div class="list card">    
+            <div class="padding">        
+            <div id="chart"></div>
+                </div>
+        </div>
+
+        <h3>Conversions</h3>
+        <hr />
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                <h4>Conversions this month:  <span ng-bind="conversionsthismonth"></span></h4>
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item">                
+                <h4>Conversion Ratio</h4>
+                <p>Total Targets In Play This Month:  <span ng-bind="totaltargetsinplay"></span></p>
+                <p>Ratio Converted:  <span ng-bind="conversionratio"></span></p>
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item">
+                <div class="padding">
+                    <div id="charttwo"></div>
+                </div>
+                </div>
+        </div>
+        <div class="list card">
+            <div class="item">
+                <div class="padding">
+                    <div id="chartthree"></div>
+                </div>
+    </div>
+                </div >       
+            
+        <h3>Quotes</h3>
+        <hr />
+        <div class="list card">
+            <div class="item">
+                <h4>Quotes written this month:  <span ng-bind="quotesthismonth"></span></h4>                
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item">
+                <div class="padding">
+                    <div id="chartfour"></div>
+                </div>
+    </div>
+                </div>
+
+            <h3>Deals</h3>
+        <hr />
+        <div class="list card">
+            <div class="item">
+                <h4>Total Deal Estimate Count for Month:  <span ng-bind="dealestimatescountthismonth"></span></h4>                
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item">
+                <div class="padding">
+                    <div id="chartfive"></div>
+                </div>
+    </div>
+                </div>
+        <div class="list card">
+            <div class="item">
+                <h4>Total Deals Count for Month:  <span ng-bind="dealscountthismonth"></span></h4>               
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item">
+                <div class="padding">
+                    <div id="chartsix"></div>
+                </div>
+        </div>
+                </div>
+        <div class="list card">
+            <div class="item">
+                <h4>Total Deals Value for month:  <span ng-bind="dealvaluethismonth"></span></h4>                
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item">
+                <h4>Total Deals Value for previous months:  </h4>
+                <div class="padding">
+                    <div id="chartseven"></div>
+                </div>
+        </div>
+                </div>
+
+            <h3>Revenue</h3>
+        <hr />
+        <div class="list card">
+            <div class="item">
+                <h4>Revenue This Month:  <span ng-bind="revenuethismonth"></span></h4>                
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item">
+                <div class="padding">
+                    <div id="charteight"></div>
+                </div>
+    </div>
+                </div>
+
+        
+    </ion-content>
+</ion-view>

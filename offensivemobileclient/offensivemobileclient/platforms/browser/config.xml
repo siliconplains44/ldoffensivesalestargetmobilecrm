@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget defaultlocale="en-US" id="io.cordova.salestarget" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <name>SalesTarget</name>
+    <description>Leopard Data's premier mobile sales platform</description>
+    <author email="allan@leoparddata.com" href="https://www.leoparddata.com">Leopard Data Corporation</author>
+    <content src="index.html" />
+    <vs:features />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="windows-target-version" value="8.1" />
+    <preference name="windows-phone-target-version" value="8.1" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="KeepRunning" value="True" />
+    <preference name="ShowTitle" value="True" />
+    <preference name="InAppBrowserStorageEnabled" value="True" />
+    <preference name="SuppressesIncrementalRendering" value="True" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="True" />
+</widget>

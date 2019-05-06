@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0d24fc3-6cde-4c5c-b8b3-ba8a56e16909" name="Default" comment="" />
+    <ignored path="leoparddatanodejsservicesstorewebapp.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="C:\projects\leoparddatag\leoparddatanodejsservicesstorewebapp" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1515128732">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leoparddatanodejsservicesstorewebapp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/viewmodules/createldlogin.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/viewmodules/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/viewmodules/login.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/viewmodules/dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/ajaj.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="246" column="2" selection-start-line="246" selection-start-column="2" selection-end-line="246" selection-end-column="2" />
+              <folding>
+                <element signature="e#40#68#0" />
+                <element signature="e#135#1140#0" />
+                <element signature="e#367#1135#0" />
+                <element signature="e#399#566#0" />
+                <element signature="e#580#1129#0" />
+                <element signature="e#677#1117#0" />
+                <element signature="e#705#904#0" />
+                <element signature="e#926#1053#0" />
+                <element signature="e#1196#2200#0" />
+                <element signature="e#1481#1648#0" />
+                <element signature="e#1662#2187#0" />
+                <element signature="e#1747#2175#0" />
+                <element signature="e#1775#1962#0" />
+                <element signature="e#1984#2111#0" />
+                <element signature="e#2256#3260#0" />
+                <element signature="e#2541#2708#0" />
+                <element signature="e#2722#3247#0" />
+                <element signature="e#2807#3235#0" />
+                <element signature="e#2835#3022#0" />
+                <element signature="e#3044#3171#0" />
+                <element signature="e#3334#4374#0" />
+                <element signature="e#3619#3786#0" />
+                <element signature="e#3800#4361#0" />
+                <element signature="e#3903#4349#0" />
+                <element signature="e#3931#4136#0" />
+                <element signature="e#4158#4285#0" />
+                <element signature="e#4730#4897#0" />
+                <element signature="e#4911#5466#0" />
+                <element signature="e#5011#5454#0" />
+                <element signature="e#5039#5241#0" />
+                <element signature="e#5263#5390#0" />
+                <element signature="e#7586#8510#0" />
+                <element signature="e#7867#8018#0" />
+                <element signature="e#8028#8497#0" />
+                <element signature="e#8107#8489#0" />
+                <element signature="e#8131#8300#0" />
+                <element signature="e#8318#8433#0" />
+                <element signature="e#8571#9509#0" />
+                <element signature="e#8852#9003#0" />
+                <element signature="e#9013#9496#0" />
+                <element signature="e#9099#9488#0" />
+                <element signature="e#9123#9299#0" />
+                <element signature="e#9317#9432#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="380" column="2" selection-start-line="380" selection-start-column="2" selection-end-line="380" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!block;n#businessLogic#0" />
+                <element signature="e#377#1246#0" />
+                <element signature="e#406#876#0" />
+                <element signature="e#903#1089#0" />
+                <element signature="e#1117#1241#0" />
+                <element signature="e#1137#1207#0" />
+                <element signature="e#1334#1526#0" />
+                <element signature="e#1462#1487#0" />
+                <element signature="e#1497#1523#0" />
+                <element signature="e#1605#2679#0" />
+                <element signature="e#1783#2675#0" />
+                <element signature="e#1803#2551#0" />
+                <element signature="e#2064#2539#0" />
+                <element signature="e#2165#2426#0" />
+                <element signature="e#2221#2297#0" />
+                <element signature="e#2327#2404#0" />
+                <element signature="e#2452#2521#0" />
+                <element signature="e#2565#2669#0" />
+                <element signature="e#2978#5256#0" />
+                <element signature="e#3005#4358#0" />
+                <element signature="e#3451#4342#0" />
+                <element signature="e#3576#4158#0" />
+                <element signature="e#3655#3827#0" />
+                <element signature="e#3857#4136#0" />
+                <element signature="e#4164#4324#0" />
+                <element signature="e#4386#5246#0" />
+                <element signature="e#5176#5230#0" />
+                <element signature="e#5289#5740#0" />
+                <element signature="e#5312#5645#0" />
+                <element signature="e#5381#5533#0" />
+                <element signature="e#5555#5630#0" />
+                <element signature="e#5663#5730#0" />
+                <element signature="e#5815#8900#0" />
+                <element signature="e#5994#8572#0" />
+                <element signature="e#6021#6752#0" />
+                <element signature="e#6412#6736#0" />
+                <element signature="e#6444#6682#0" />
+                <element signature="e#6779#6913#0" />
+                <element signature="e#6843#6897#0" />
+                <element signature="e#6940#7591#0" />
+                <element signature="e#7521#7575#0" />
+                <element signature="e#7618#8120#0" />
+                <element signature="e#8050#8104#0" />
+                <element signature="e#8147#8562#0" />
+                <element signature="e#8492#8546#0" />
+                <element signature="e#8605#8891#0" />
+                <element signature="e#8676#8796#0" />
+                <element signature="e#8814#8881#0" />
+                <element signature="e#8985#9895#0" />
+                <element signature="e#9026#9591#0" />
+                <element signature="e#9053#9581#0" />
+                <element signature="e#9511#9565#0" />
+                <element signature="e#9624#9886#0" />
+                <element signature="e#9647#9729#0" />
+                <element signature="e#9752#9805#0" />
+                <element signature="e#9823#9876#0" />
+                <element signature="e#9977#13233#0" />
+                <element signature="e#10209#12833#0" />
+                <element signature="e#10236#10370#0" />
+                <element signature="e#10300#10354#0" />
+                <element signature="e#10397#10933#0" />
+                <element signature="e#10624#10917#0" />
+                <element signature="e#10666#10793#0" />
+                <element signature="e#10819#10899#0" />
+                <element signature="e#10960#11757#0" />
+                <element signature="e#11365#11741#0" />
+                <element signature="e#11485#11617#0" />
+                <element signature="e#11643#11723#0" />
+                <element signature="e#11784#12823#0" />
+                <element signature="e#12518#12807#0" />
+                <element signature="e#12638#12701#0" />
+                <element signature="e#12727#12789#0" />
+                <element signature="e#12866#13224#0" />
+                <element signature="e#12971#13053#0" />
+                <element signature="e#13076#13129#0" />
+                <element signature="e#13147#13214#0" />
+                <element signature="e#13297#14266#0" />
+                <element signature="e#13476#13938#0" />
+                <element signature="e#13503#13637#0" />
+                <element signature="e#13567#13621#0" />
+                <element signature="e#13664#13928#0" />
+                <element signature="e#13858#13912#0" />
+                <element signature="e#13971#14257#0" />
+                <element signature="e#14042#14162#0" />
+                <element signature="e#14180#14247#0" />
+                <element signature="e#14337#15327#0" />
+                <element signature="e#14516#14999#0" />
+                <element signature="e#14543#14677#0" />
+                <element signature="e#14607#14661#0" />
+                <element signature="e#14704#14989#0" />
+                <element signature="e#14919#14973#0" />
+                <element signature="e#15032#15318#0" />
+                <element signature="e#15103#15223#0" />
+                <element signature="e#15241#15308#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/www/js/services/utilityservice.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/certs2017/gd1.crt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/viewmodules/discounts.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/orientation.js" />
+        <option value="$PROJECT_DIR$/public/javascript/application.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/discounts.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/orientation.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/javascript/utility.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/viewservicestatistics.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/viewservicestatistics.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/activateservices.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/downloadsoftware.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/reportabug.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/servicesupportoptions.html" />
+        <option value="$PROJECT_DIR$/dalxpooled.js" />
+        <option value="$PROJECT_DIR$/public/javascript/minimal.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/downloadsoftware.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/pricingcalculator.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/productfilemirror.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/productfilepods.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/productfilelock.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/productfileshare.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/productfilesafe.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/productfilelock.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/productfilesafe.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/productfileshare.html" />
+        <option value="$PROJECT_DIR$/routes/ajaj.js" />
+        <option value="$PROJECT_DIR$/bl.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/home.js" />
+        <option value="$PROJECT_DIR$/views/spa.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/viewmodules/home.html" />
+        <option value="$PROJECT_DIR$/public/viewmodules/dashboard.js" />
+        <option value="$PROJECT_DIR$/public/viewmodules/dashboard.html" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-162" />
+    <option name="y" value="87" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.bin\www">
+    <configuration name="bin\www JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" uri="https://salestarget.leoparddata.com:50700/www/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.bin\www JavaScript" />
+      <item itemvalue="Node.js.bin\www" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0d24fc3-6cde-4c5c-b8b3-ba8a56e16909" name="Default" comment="" />
+      <created>1437073647382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1437073647382</updated>
+      <workItem from="1465437055116" duration="54000" />
+      <workItem from="1465515964241" duration="4000" />
+      <workItem from="1465516058237" duration="6000" />
+      <workItem from="1557177442801" duration="5000" />
+    </task>
+    <task id="LOCAL-00001" summary="fixed pricing calc page">
+      <created>1437074017151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1437074017151</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added discounts and orientation page, modified home page images">
+      <created>1437140134327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1437140134327</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added magnific popup and home page video to footer link">
+      <created>1437398732533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1437398732533</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed home page">
+      <created>1437399452575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1437399452575</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated view page statistics">
+      <created>1437682318437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1437682318437</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated view page statistics">
+      <created>1437682545711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1437682545711</updated>
+    </task>
+    <task id="LOCAL-00007" summary="conversion to file safe">
+      <created>1437747188675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1437747188675</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added logging for downloads and page views">
+      <created>1437764185803</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1437764185803</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added product videos">
+      <created>1438022571385</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1438022571385</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added final filelock graphic and added services row">
+      <created>1438093403018</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1438093403018</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix on pricing calculators page">
+      <created>1438094161551</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1438094161551</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finished home page again">
+      <created>1439210980758</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1439210980758</updated>
+    </task>
+    <task id="LOCAL-00013" summary="finished interim file pods and file mirror service pages">
+      <created>1439214746776</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1439214746776</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added product placeholder images">
+      <created>1439214791249</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1439214791249</updated>
+    </task>
+    <task id="LOCAL-00015" summary="finished product file lock product page">
+      <created>1439220128472</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1439220128472</updated>
+    </task>
+    <task id="LOCAL-00016" summary="interim checkin">
+      <created>1439221244876</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1439221244876</updated>
+    </task>
+    <task id="LOCAL-00017" summary="finished fileshare page interim checkin">
+      <created>1439227458598</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1439227458598</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added images">
+      <created>1439227486328</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1439227486328</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changed port">
+      <created>1439228693499</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1439228693499</updated>
+    </task>
+    <task id="LOCAL-00020" summary="finished store for now">
+      <created>1439231637899</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1439231637899</updated>
+    </task>
+    <task id="LOCAL-00021" summary="some fixes">
+      <created>1439231740412</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1439231740412</updated>
+    </task>
+    <task id="LOCAL-00022" summary="updated to cert 2017">
+      <created>1465437100387</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1465437100387</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-162" y="87" width="1940" height="1100" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21451104" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39465874" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed pricing calc page" />
+    <MESSAGE value="added discounts and orientation page, modified home page images" />
+    <MESSAGE value="added magnific popup and home page video to footer link" />
+    <MESSAGE value="fixed home page" />
+    <MESSAGE value="updated view page statistics" />
+    <MESSAGE value="conversion to file safe" />
+    <MESSAGE value="added logging for downloads and page views" />
+    <MESSAGE value="added product videos" />
+    <MESSAGE value="added final filelock graphic and added services row" />
+    <MESSAGE value="fix on pricing calculators page" />
+    <MESSAGE value="finished home page again" />
+    <MESSAGE value="finished interim file pods and file mirror service pages" />
+    <MESSAGE value="added product placeholder images" />
+    <MESSAGE value="finished product file lock product page" />
+    <MESSAGE value="interim checkin" />
+    <MESSAGE value="finished fileshare page interim checkin" />
+    <MESSAGE value="added images" />
+    <MESSAGE value="changed port" />
+    <MESSAGE value="finished store for now" />
+    <MESSAGE value="some fixes" />
+    <MESSAGE value="updated to cert 2017" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to cert 2017" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/sanity.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dalxpooled.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/viewmodules/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/spa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/viewmodules/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/viewmodules/createldlogin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/viewmodules/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/viewmodules/login.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/viewmodules/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/ajaj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="246" column="2" selection-start-line="246" selection-start-column="2" selection-end-line="246" selection-end-column="2" />
+          <folding>
+            <element signature="e#40#68#0" />
+            <element signature="e#135#1140#0" />
+            <element signature="e#367#1135#0" />
+            <element signature="e#399#566#0" />
+            <element signature="e#580#1129#0" />
+            <element signature="e#677#1117#0" />
+            <element signature="e#705#904#0" />
+            <element signature="e#926#1053#0" />
+            <element signature="e#1196#2200#0" />
+            <element signature="e#1481#1648#0" />
+            <element signature="e#1662#2187#0" />
+            <element signature="e#1747#2175#0" />
+            <element signature="e#1775#1962#0" />
+            <element signature="e#1984#2111#0" />
+            <element signature="e#2256#3260#0" />
+            <element signature="e#2541#2708#0" />
+            <element signature="e#2722#3247#0" />
+            <element signature="e#2807#3235#0" />
+            <element signature="e#2835#3022#0" />
+            <element signature="e#3044#3171#0" />
+            <element signature="e#3334#4374#0" />
+            <element signature="e#3619#3786#0" />
+            <element signature="e#3800#4361#0" />
+            <element signature="e#3903#4349#0" />
+            <element signature="e#3931#4136#0" />
+            <element signature="e#4158#4285#0" />
+            <element signature="e#4730#4897#0" />
+            <element signature="e#4911#5466#0" />
+            <element signature="e#5011#5454#0" />
+            <element signature="e#5039#5241#0" />
+            <element signature="e#5263#5390#0" />
+            <element signature="e#7586#8510#0" />
+            <element signature="e#7867#8018#0" />
+            <element signature="e#8028#8497#0" />
+            <element signature="e#8107#8489#0" />
+            <element signature="e#8131#8300#0" />
+            <element signature="e#8318#8433#0" />
+            <element signature="e#8571#9509#0" />
+            <element signature="e#8852#9003#0" />
+            <element signature="e#9013#9496#0" />
+            <element signature="e#9099#9488#0" />
+            <element signature="e#9123#9299#0" />
+            <element signature="e#9317#9432#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="380" column="2" selection-start-line="380" selection-start-column="2" selection-end-line="380" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!block;n#businessLogic#0" />
+            <element signature="e#377#1246#0" />
+            <element signature="e#406#876#0" />
+            <element signature="e#903#1089#0" />
+            <element signature="e#1117#1241#0" />
+            <element signature="e#1137#1207#0" />
+            <element signature="e#1334#1526#0" />
+            <element signature="e#1462#1487#0" />
+            <element signature="e#1497#1523#0" />
+            <element signature="e#1605#2679#0" />
+            <element signature="e#1783#2675#0" />
+            <element signature="e#1803#2551#0" />
+            <element signature="e#2064#2539#0" />
+            <element signature="e#2165#2426#0" />
+            <element signature="e#2221#2297#0" />
+            <element signature="e#2327#2404#0" />
+            <element signature="e#2452#2521#0" />
+            <element signature="e#2565#2669#0" />
+            <element signature="e#2978#5256#0" />
+            <element signature="e#3005#4358#0" />
+            <element signature="e#3451#4342#0" />
+            <element signature="e#3576#4158#0" />
+            <element signature="e#3655#3827#0" />
+            <element signature="e#3857#4136#0" />
+            <element signature="e#4164#4324#0" />
+            <element signature="e#4386#5246#0" />
+            <element signature="e#5176#5230#0" />
+            <element signature="e#5289#5740#0" />
+            <element signature="e#5312#5645#0" />
+            <element signature="e#5381#5533#0" />
+            <element signature="e#5555#5630#0" />
+            <element signature="e#5663#5730#0" />
+            <element signature="e#5815#8900#0" />
+            <element signature="e#5994#8572#0" />
+            <element signature="e#6021#6752#0" />
+            <element signature="e#6412#6736#0" />
+            <element signature="e#6444#6682#0" />
+            <element signature="e#6779#6913#0" />
+            <element signature="e#6843#6897#0" />
+            <element signature="e#6940#7591#0" />
+            <element signature="e#7521#7575#0" />
+            <element signature="e#7618#8120#0" />
+            <element signature="e#8050#8104#0" />
+            <element signature="e#8147#8562#0" />
+            <element signature="e#8492#8546#0" />
+            <element signature="e#8605#8891#0" />
+            <element signature="e#8676#8796#0" />
+            <element signature="e#8814#8881#0" />
+            <element signature="e#8985#9895#0" />
+            <element signature="e#9026#9591#0" />
+            <element signature="e#9053#9581#0" />
+            <element signature="e#9511#9565#0" />
+            <element signature="e#9624#9886#0" />
+            <element signature="e#9647#9729#0" />
+            <element signature="e#9752#9805#0" />
+            <element signature="e#9823#9876#0" />
+            <element signature="e#9977#13233#0" />
+            <element signature="e#10209#12833#0" />
+            <element signature="e#10236#10370#0" />
+            <element signature="e#10300#10354#0" />
+            <element signature="e#10397#10933#0" />
+            <element signature="e#10624#10917#0" />
+            <element signature="e#10666#10793#0" />
+            <element signature="e#10819#10899#0" />
+            <element signature="e#10960#11757#0" />
+            <element signature="e#11365#11741#0" />
+            <element signature="e#11485#11617#0" />
+            <element signature="e#11643#11723#0" />
+            <element signature="e#11784#12823#0" />
+            <element signature="e#12518#12807#0" />
+            <element signature="e#12638#12701#0" />
+            <element signature="e#12727#12789#0" />
+            <element signature="e#12866#13224#0" />
+            <element signature="e#12971#13053#0" />
+            <element signature="e#13076#13129#0" />
+            <element signature="e#13147#13214#0" />
+            <element signature="e#13297#14266#0" />
+            <element signature="e#13476#13938#0" />
+            <element signature="e#13503#13637#0" />
+            <element signature="e#13567#13621#0" />
+            <element signature="e#13664#13928#0" />
+            <element signature="e#13858#13912#0" />
+            <element signature="e#13971#14257#0" />
+            <element signature="e#14042#14162#0" />
+            <element signature="e#14180#14247#0" />
+            <element signature="e#14337#15327#0" />
+            <element signature="e#14516#14999#0" />
+            <element signature="e#14543#14677#0" />
+            <element signature="e#14607#14661#0" />
+            <element signature="e#14704#14989#0" />
+            <element signature="e#14919#14973#0" />
+            <element signature="e#15032#15318#0" />
+            <element signature="e#15103#15223#0" />
+            <element signature="e#15241#15308#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/www/js/services/utilityservice.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certs2017/gd1.crt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

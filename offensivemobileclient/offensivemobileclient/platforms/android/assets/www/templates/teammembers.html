@@ -1,0 +1,51 @@
+﻿<ion-view view-title="Manage Team Members" name="actionchoices-view" hide-back-button="true">
+    <ion-content class="padding">
+
+            <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onBack()">Go Back</button>
+
+        <div class="list">
+            <div class="item item-divider">
+                Team:
+            </div>
+            <div class="item item-text-wrap">
+                <p ng-bind-html="currentTeam"></p>
+            </div>
+            <div class="item item-divider">
+                Add a team member
+            </div>
+            <div>
+                <label class="item item-input">
+                    <input type="text" placeholder="handle" required ng-model="handle">
+                </label>
+                <ion-checkbox ng-model="islead" ng-checked="false">Is a Team Lead</ion-checkbox>
+                <button class="button button-block button-standard" type="submit" ng-click="onAttemptJoinTeam()">Add Team Member</button>
+            </div>
+            <div>
+                <div class="item item-text-wrap">
+                    Team Leads:
+                </div>
+                <ion-list>
+                    <ion-item ng-repeat="teamlead in teamleads" name="teamleads">
+                        <h2 class="padding">{{teamlead.Name}}</h2>
+                    </ion-item>
+                </ion-list>
+            </div>
+            <div>
+                <div class="item item-text-wrap">
+                    Team Members:
+                </div>
+                <ion-list>
+                    <ion-item ng-repeat="teammember in teammembers" name="teammembers">
+                        <h2 class="padding">{{teammember.Name}}</h2>
+                        <button class="button button-standard button-small" ng-click="onMakeTeamLead(teammember)">
+                            <i class="icon ion-compose"></i>
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onRemoveTeamMember(teammember)">
+                            <i class="icon ion-ios-minus"></i>
+                        </button>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,20 @@
+﻿<ion-view view-title="Add Individual" name="addindividual-view" hide-back-button="false">
+    <ion-content class="padding">
+
+        <label class="item item-input">
+            <input type="text" placeholder="Last Name" required ng-model="lastname">
+        </label>
+        <label class="item item-input">
+            <input type="text" placeholder="Middle Name" required ng-model="middlename">
+        </label>
+        <label class="item item-input">
+            <input type="text" placeholder="First Name" required ng-model="firstname">
+        </label>
+        <label class="item item-input">
+            <span class="input-label" >Birthday</span>
+            <input type="date" ng-model="birthday">
+        </label>
+        <button class="button button-block button-standard icon-left" type="submit" ng-click="onCreateIndividual()">Create Individual</button>
+
+    </ion-content>
+</ion-view>

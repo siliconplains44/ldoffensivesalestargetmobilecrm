@@ -1,0 +1,96 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "package.windows.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"picturesLibrary\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<DeviceCapability Name=\"webcam\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "package.windows80.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"picturesLibrary\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<DeviceCapability Name=\"webcam\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "package.phone.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"picturesLibrary\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<DeviceCapability Name=\"webcam\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<m3:Capability Name=\"contacts\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "package.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<DeviceCapability Name=\"location\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "Offensive Mobile Application"
+        },
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "Offensive Mobile Application"
+        },
+        "org.apache.cordova.contacts": {
+            "PACKAGE_NAME": "Offensive Mobile Application"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "Offensive Mobile Application"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "Offensive Mobile Application"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "Offensive Mobile Application"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "Offensive Mobile Application"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "SalesTarget"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "SalesTarget"
+        }
+    },
+    "dependent_plugins": {}
+}

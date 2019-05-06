@@ -1,0 +1,17 @@
+﻿<ion-view view-title="Leopard Data Sales Target - Join a Team" name="actionchoices-view" hide-back-button="true">
+    <ion-content class="padding">
+        <div class="card">
+            <div class="item item-text-wrap">
+                You must know the team name of the team you want to join.
+                After you have entered the team name below,
+                if you have already been authorized for that team you will be able to access
+                all team functions.  If you have not been authorized for your specified team
+                a  team join request will be sent to the team leads for authorization.
+            </div>
+        </div>
+        <label class="item item-input">
+            <input type="text" placeholder="Team Name" required ng-model="teamname">
+        </label>
+        <button class="button button-block button-standard" type="submit" ng-click="onAttemptJoinTeam()">Submit</button>
+    </ion-content>
+</ion-view>

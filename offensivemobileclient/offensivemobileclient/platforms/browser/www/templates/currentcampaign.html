@@ -1,0 +1,26 @@
+﻿<ion-view view-title="Current Campaign">
+    <ion-content class="padding">
+        <div class="list">
+            <div class="item item-divider">
+                Your Current Team is:
+            </div>
+            <div class="item item-text-wrap">
+                <p ng-bind-html="currentTeam"></p>
+            </div>
+            <div ng-show="showCampaignSwitcher">
+                <h4 id="currentTeamName"></h4>
+                <div class="item item-divider">
+                    Change your default campaign to
+                </div>
+                <div id="campaignSwitchOptions">
+                    <div class="item item-text-wrap">
+                        The following campaigns are available for you to default to:
+                    </div>
+                    <ion-list>
+                        <ion-radio ng-repeat="campaign in campaigns" ng-value="campaign" ng-model="$parent.thecampaign" ng-change="onCampaignSelected(campaign)" name="theteam">{{campaign.Name}}</ion-radio>
+                    </ion-list>                    
+                </div>
+            </div>            
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,28 @@
+﻿<ion-view view-title="Add Calendar Event" name="actionchoices-view" hide-back-button="false">
+    <ion-content class="padding">
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Title" ng-model="title" />
+            </label>
+            <label class="item item-input">
+                <input type="datetime-local" placeholder="Start Time" ng-model="starttime" />
+            </label>
+            <label class="item item-input">
+                <input type="datetime-local" placeholder="End Time" ng-model="endtime" />
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Where" ng-model="where" />
+            </label>
+            <label class="item item-input">
+                <textarea placeholder="Description" ng-model="description" rows="10"></textarea>
+            </label>
+        </div>
+        <div class="padding">
+            <p ng-show="formtitlerequired">* Title is required</p>
+            <p ng-show="formstarttimerequired">* Start Time is required</p>
+            <p ng-show="formendtimerequired">* End Time is required</p>
+        </div>
+        <button class="button button-block button-standard icon-left" type="submit" ng-click="onCreateCalendarEvent()">Add Calendar Event</button>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,44 @@
+﻿<ion-view view-title="Calendar Events">
+    <ion-content class="padding">
+
+            <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddCalendarEvent()">Add Calendar Event</button>
+
+        <div>
+            <label class="item item-input">
+                <span class="input-label" >From Date</span>
+                <input type="date" ng-model="from">
+            </label>
+            <label class="item item-input">
+                <span class="input-label" >To Date</span>
+                <input type="date"ng-model="to">
+            </label>
+            <button class="button button-standard button-small " ng-click="onSetFilterToday()">Set Today Filter</button>
+            <button class="button button-standard button-small " ng-click="onSetFilterWeek()">Set Week Filter</button>
+            <button class="button button-standard button-small " ng-click="onSetFilterMonth()">Set Month Filter</button>
+            <hr>
+            <button class="button button-standard button-small button-block" ng-click="onFilterCalendarEvents()">Filter Calendar Events</button>
+        </div>
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="calendarevent in calendarevents">
+                    <button class="button button-standard button-small" ng-click="onEditCalendarEvent(calendarevent)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteCalendarEvent(calendarevent)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h2>Title:  {{calendarevent.Title}}</h2>
+                    <hr />
+                    <h2>Start:  {{calendarevent.StartDateTime | date:"MM/dd/yyyy 'at' h:mma"}}</h2>
+                    <hr />
+                    <h2>End:  {{calendarevent.EndDateTime | date:"MM/dd/yyyy 'at' h:mma"}}</h2>
+                    <hr />
+                    <h2>Where:  {{calendarevent.Location}}</h2>
+                    <hr />
+                    <pre>Description:  {{calendarevent.Description}}</pre>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

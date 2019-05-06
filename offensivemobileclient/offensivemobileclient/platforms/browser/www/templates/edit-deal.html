@@ -1,0 +1,33 @@
+﻿<ion-view view-title="Edit Deal" name="actionchoices-view" hide-back-button="false">
+    <ion-content class="padding">
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Product Or Service" ng-model="productorservice" />
+            </label>
+            <h4>Closed Date (leave blank if not closed)</h4>
+            <label class="item item-input">
+                <input type="date" placeholder="Closed" ng-model="closed" />
+            </label>
+            <ion-checkbox ng-model="isestimate">Is Estimate</ion-checkbox>
+            <h4>Time Frame Type</h4>
+            <!--<ion-list>
+                <ion-radio ng-repeat="timeframetype in timeframetypes" ng-value="timeframetype" ng-model="$parent.thetimeframetype" name="thetimeframetype">{{timeframetype.Name}}</ion-radio>
+            </ion-list>-->
+            <label class="item item-input">
+                <input type="number" placeholder="Amount" ng-model="amount" />
+            </label>
+            <label class="item item-input">
+                <textarea placeholder="Notes" ng-model="notes" rows="10"></textarea>
+            </label>
+        </div>
+        <div class="padding">
+            <p ng-show="formproductorservicerequired">* Product or Service is required</p>
+            <p ng-show="formisestimaterequired">* Is Estimate is required</p>
+            <p ng-show="formtimeframetyperequired">* Time Frame Type is required</p>
+            <p ng-show="formamountrequired">* Amount is required</p>
+            <p ng-show="formnotesrequired">* Notes is required</p>
+        </div>
+        <button class="button button-block button-standard icon-left" type="submit" ng-click="onModifyDeal()">Edit Deal</button>
+
+    </ion-content>
+</ion-view>

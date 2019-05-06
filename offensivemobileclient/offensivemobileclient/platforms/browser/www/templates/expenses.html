@@ -1,0 +1,24 @@
+﻿<ion-view view-title="Expenses">
+    <ion-content class="padding">
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddExpense()">Add Expense</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="expense in expenses">
+                    <button class="button button-standard button-small" ng-click="onEditExpense(expense)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteExpense(expense)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h2>Name:  {{expense.Name}}</h2>
+                    <hr />
+                    <pre>Description:  {{expense.Description}}</pre>
+                    <hr />
+                    <h2>Amount:  {{expense.Amount}}</h2>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

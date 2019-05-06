@@ -1,0 +1,43 @@
+﻿<ion-view view-title="Current Team">
+    <ion-content class="padding">
+        <div class="list">
+            <div class="item item-divider">
+                Your Current Team is:
+            </div>
+            <div class="item item-text-wrap">
+                <p ng-bind-html="currentTeam"></p>
+            </div>
+            <div ng-show="showTeamSwitcher">
+                <h4 id="currentTeamName"></h4>
+                <div class="item item-divider">
+                    Switch to a team you are on
+                </div>
+                <div id="teamSwitchOptions">
+                    <div class="item item-text-wrap">
+                        The following teams are available for you to switch to:
+                    </div>
+                    <ion-list>
+                        <ion-radio ng-repeat="team in teams" ng-value="team" ng-model="$parent.theteam" name="theteam">{{team.Name}}</ion-radio>
+                    </ion-list>                    
+                    <button class="button button-block button-standard" type="submit" ng-click="onAttemptSwitchTeam()">Change Team</button>
+                </div>
+            </div>
+            <div class="item item-divider">
+                Join a new team
+            </div>
+            <div id="joinAnotherTeamOptions">
+                <div class="item item-text-wrap">
+                    You must know the team name of the team you want to join.
+                    After you have entered the team name below,
+                    if you have already been authorized for that team you will be able to access
+                    all team functions.  If you have not been authorized for your specified team
+                    a  team join request will be sent to the team leads for authorization.
+                </div>
+                <label class="item item-input">
+                    <input type="text" placeholder="Team Name" required ng-model="teamname">
+                </label>
+                <button class="button button-block button-standard" type="submit" ng-click="onAttemptJoinTeam()">Join Team</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,13 @@
+<ion-view view-title="Report a Bug">
+    <ion-content class="padding">
+        <div class="card">
+            <div class="item item-text-wrap">
+                Please enter your problem in the text field below.  We want to thank you very much for taking the time to tell us about your issue.  We will fix it and ship an update as soon as possible!   
+            </div>
+        </div>
+        <label class="item item-input">
+            <textarea rows="4" cols="50" placeholder="Bug Report" required ng-model="bugreport"></textarea>
+        </label>
+        <button class="button button-block button-standard" type="submit" ng-click="onSubmitReport()">Submit</button>
+    </ion-content>
+</ion-view>

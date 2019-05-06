@@ -1,0 +1,43 @@
+﻿<ion-view view-title="Manage Team Expenses">
+    <ion-content class="padding">
+        
+        <ion-list>
+            <ion-radio ng-model="choice" ng-value="'not'" ng-click="onShowExpensesNotReimbursed()">Expenses not reimbursed</ion-radio>
+            <ion-radio ng-model="choice" ng-value="'is'" ng-click="onShowExpensesReimbursed()">Expenses reimbursed</ion-radio>
+        </ion-list>
+        
+        <div ng-show="shownotreimbursed">
+            <h4>Expenses Not Reimbursed</h4>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="notreimbursedexpense in notreimbursedexpenses">
+                    <h2>Handle (From): {{ notreimbursedexpense.handleName }}</h2>
+                    <h2>Name: {{ notreimbursedexpense.Name}}</h2>
+                    <pre>Description: {{notreimbursedexpense.Description}}</pre>
+                    <h2>Created: {{notreimbursedexpense.Created}}</h2>
+                    <h2>Amount: {{notreimbursedexpense.Amount}}</h2>
+                    <ion-checkbox ng-model="notreimbursedexpense.ischecked">Reimburse</ion-checkbox>
+                                
+                </ion-item>
+             </ion-list>
+             <button class="button button-block button-standard icon-left" type="submit" ng-click="onSetReimbursed()">Set Selected Reimbursed</button>
+
+        </div>
+        <div ng-show="showreimbursed">
+            <h4>Expenses Reimbursed</h4>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="reimbursedexpense in reimbursedexpenses">
+                    <h2>Handle (From): {{ reimbursedexpense.handleName }}</h2>
+                    <h2>Name: {{ reimbursedexpense.Name}}</h2>
+                    <pre>Description: {{reimbursedexpense.Description}}</pre>
+                    <h2>Created: {{reimbursedexpense.Created}}</h2>
+                    <h2>Amount: {{reimbursedexpense.Amount}}</h2>
+                   
+                     <ion-checkbox ng-model="reimbursedexpense.ischecked">Unreimburse</ion-checkbox>
+                </ion-item>
+            </ion-list>
+            <button class="button button-block button-standard icon-left" type="submit" ng-click="onSetNotReimbursed()">Set Selected Not Reimbursed</button>
+
+        </div>
+
+    </ion-content>
+</ion-view>

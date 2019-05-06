@@ -1,0 +1,26 @@
+﻿<ion-view view-title="Sharing" name="sharesalestarget-view" hide-back-button="false">
+    <ion-content class="padding">
+        <!--<div class="padding">
+            <button class="button icon-left button-block" ng-click="onBack()">Go Back</button>
+        </div>-->
+     
+            <div class="list">
+                <div class="item item-divider">
+                    Your Current Team is:
+                </div>
+                <div class="item item-text-wrap">
+                    <p ng-bind-html="currentTeam"></p>
+                </div>
+                <div>
+                    <div">
+                        <div class="item item-text-wrap">
+                            Current sharing for this Sales Target:
+                        </div>
+                        <ion-list>
+                            <ion-checkbox ng-repeat="teammember in teammembers" itemid="teammember" ng-click="onClickTeamMemberForSharing(teammember); $event.stopPropagation();" ng-model="teammember.checked">{{teammember.Name}}</ion-checkbox>
+                        </ion-list>
+                    </div>
+                </div>
+        
+    </ion-content>
+</ion-view>

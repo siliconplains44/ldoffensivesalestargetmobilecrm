@@ -1,0 +1,66 @@
+﻿<ion-view view-title="Add Attachment" name="actionchoices-view" hide-back-button="false">
+    <ion-content class="padding">
+        <div class="card">
+            <div class="item item-text-wrap">
+                This page lets you choose a file from filePODS to add as an attachment.  
+            </div>
+        </div>
+        <h5>1 - Select a file pod</h5>
+        <div class="list">
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    File Pods
+                </div>
+                <select ng-model="$parent.selectedpod" ng-change="onPodSelected()">
+                    <option ng-repeat="pod in pods" value="{{pod.PodID}}">{{pod.Name}}</option>
+                </select>
+            </label>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    File Pods Shared With Me
+                </div>
+                <select ng-model="$parent.selectedpodshared" ng-change="onPodSharedWithMeSelected()">
+                    <option ng-repeat="pod in podssharedwithme" value="{{pod.PodID}}">{{pod.Name}}</option>
+                </select>
+            </label>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Archived File Pods
+                </div>
+                <select ng-model="$parent.selectedpodarchived" ng-change="onPodArchivedSelected()">
+                    <option ng-repeat="pod in podsarchived" value="{{pod.PodID}}">{{pod.Name}}</option>
+                </select>
+            </label>
+        </div>
+        <h5>2 - Select a folder</h5>
+        <div class="row">
+            <div class="col">
+                <div id="folderTree" style="height: 100%; border: 1px solid; border-style: dotted">
+
+                </div>
+            </div>
+        </div>    
+        <h5>3 - Select a file</h5>    
+        <ion-list>
+            <ion-radio ng-repeat="file in files" ng-click="onSelectFile(file)">
+                <h3>Name: {{file.Filename}}</h3>
+                <h5>Size: {{file.FileSizeInBytes}}</h5>
+            </ion-radio>
+        </ion-list>
+        <h5>4 - Provide a Name and Description to this attachment</h5>        
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Name" ng-model="name" />
+            </label>            
+            <label class="item item-input" rows="5">
+                <textarea placeholder="Description" ng-model="description" ></textarea>
+            </label>
+        </div>
+        <div class="padding">
+            <p ng-show="formnamerequired">* Name is required</p>
+        </div>        
+        <h5>5 - Press "Add Attachment" to add this attachment</h5>
+         <button class="button button-block button-standard icon-left" type="submit" ng-click="onCreateAttachment()">Add Attachment</button>
+
+    </ion-content>
+</ion-view>

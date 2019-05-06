@@ -1,0 +1,44 @@
+<!--
+Create tabs with an icon and label, using the tabs-stable style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-stable">
+
+    <!-- Dashboard Tab -->
+    <ion-tab title="Sales Targets" icon-off="ion-funnel" icon-on="ion-funnel" href="#/tab/salestargets">
+        <ion-nav-view name="tab-salestargets">
+
+        </ion-nav-view>        
+    </ion-tab>
+
+    <!-- Calls Tab -->
+    <ion-tab title="Activity" icon-off="ion-happy" icon-on="ion-happy" href="#/tab/activity">
+        <ion-nav-view name="tab-activity"></ion-nav-view>
+    </ion-tab>
+
+
+    <!-- Reports Tab -->
+    <ion-tab title="Reports" icon-off="ion-stats-bars" icon-on="ion-stats-bars" href="#/tab/reports">
+        <ion-nav-view name="tab-reports"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Lead Tab -->
+    <ion-tab title="Lead" icon-off="ion-wand" icon-on="ion-wand" href="#/tab/lead" hidden="{{hideLeadTab}}" >
+        <ion-nav-view name="tab-lead"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Setup Tab -->
+    <ion-tab title="Setup" icon-off="ion-levels" icon-on="ion-levels" href="#/tab/setup">
+        <ion-nav-view name="tab-setup">
+
+        </ion-nav-view>       
+    </ion-tab>
+
+    <!-- Account Tab -->
+    <ion-tab title="Account" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/account">
+        <ion-nav-view name="tab-account"></ion-nav-view>
+    </ion-tab>
+
+
+</ion-tabs>

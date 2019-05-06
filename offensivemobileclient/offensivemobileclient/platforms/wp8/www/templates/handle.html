@@ -1,0 +1,18 @@
+﻿<ion-view view-title="Leopard Data Sales Target Login" name="login-view">
+    <ion-content class="padding">
+        <div class="card">
+            <div class="item item-text-wrap">
+                We have detected you currently don't have a handle.  To utilize this software 
+                you must have a valid handle.  Please enter a single handle name in the box below.
+                Your handle will be used to identify you to other users within your Sales
+                Target team and this is a one time setup issue.  To complete setting up your handle just simply specify a valid 
+                handle below and press the Submit button.  You will be redirected back to the
+                login after creating a valid handle, then you can login. 
+            </div>
+        </div>
+        <label class="item item-input">
+            <input type="text" placeholder="Handle" required ng-model="data.handle">
+        </label>
+        <button class="button button-block button-standard" type="submit" ng-click="onAttemptCreateHandle()">Submit</button>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,26 @@
+﻿<ion-view view-title="Mileage Log Entries">
+    <ion-content class="padding">
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddMileageLogEntry()">Add Mileage Log Entry</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="mileagelogentry in mileagelogentries">
+                    <button class="button button-standard button-small" ng-click="onEditMileageLogEntry(mileagelogentry)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteMileageLogEntry(mileagelogentry)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h2>Occurred:  {{mileagelogentry.Occurred | date:'MM/dd/yyyy'}}</h2>
+                    <hr />
+                    <pre>Duration:  {{mileagelogentry.Description}}</pre>
+                    <hr />
+                    <h2>Start Mileage:  {{mileagelogentry.StartingMileage}}</h2>
+                    <hr />
+                    <h2>End Mileage:  {{mileagelogentry.EndingMileage}}</h2>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

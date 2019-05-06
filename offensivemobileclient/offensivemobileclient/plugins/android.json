@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.leoparddata.cordova.itunesfilesharing": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        },
+        "org.apache.cordova.contacts": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "io.cordova.salestarget"
+        }
+    }
+}

@@ -1,0 +1,2 @@
+MainPackage=C:\projects\offensiveg\offensivemobileclient\offensivemobileclient\platforms\windows\build\phone\debug\x86\CordovaApp.Phone_1.0.0.0_x86_debug.appx
+ResourcePack=C:\projects\offensiveg\offensivemobileclient\offensivemobileclient\platforms\windows\build\phone\debug\x86\CordovaApp.Phone_1.0.0.0_scale-100.appx

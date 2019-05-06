@@ -1,0 +1,24 @@
+﻿<ion-view view-title="Teams">
+    <ion-content class="padding">
+
+            <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddTeam()">Add Team</button>
+
+        <p class="padding">Teams you are the lead of....</p>
+        <div>
+            <ion-list>
+                <ion-item ng-repeat="team in teams">
+                    <h2 class="padding">{{team.Name}}</h2>                    
+                    <button class="button button-standard button-small" ng-click="onEditTeam(team)">
+                        <i class="icon ion-compose"></i>
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onManageTeamMembers(team)">
+                        <i class="icon ion-person-stalker"></i>
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteTeam(team)">
+                        <i class="icon ion-ios-minus"></i>
+                    </button>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

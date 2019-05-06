@@ -1,0 +1,68 @@
+<ion-view view-title="{{viewTitle}}">
+    <ion-content class="padding">
+
+            <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddSalesTarget()">Add {{viewTitleNoS}}</button>
+
+        <hr />
+        <ion-list>
+            <ion-radio ng-repeat="selection in selections" ng-value="selection" ng-model="$parent.theselection" name="theselection" ng-change="onFilterChange(selection)" class="button-small">{{selection.Name}}</ion-radio>
+        </ion-list>
+        <hr />
+        <input type="text" id="alphafilter" style="width: 100%; background-color: gainsboro" placeholder="Alpha Filter" ng-model="$parent.theselection" ng-change="onAlphaFilterChange()"/>
+        <hr />
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="salestarget in salestargets" class="item-button-right">                    
+                    <h2 class="padding">{{salestarget.Name}} <button ng-click="onShowHideSalesTarget(salestarget)">+</button></h2>                    
+                    <div id="subbuttons{{salestarget.SalesTargetID}}" style="display:none">
+                        <button class="button button-standard button-small" ng-click="onEditSalesTarget(salestarget)">
+                            <i class="icon ion-compose padding-right"></i>Edit
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onDeleteSalesTarget(salestarget)">
+                            <i class="icon ion-ios-minus padding-right"></i>Delete
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetSharing(salestarget)">
+                            <i class="icon ion-person-stalker padding-right"></i>Sharing
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetIndividuals(salestarget)">
+                            <i class="icon ion-ionic padding-right"></i>Individuals
+                        </button>
+                        <hr>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetNotes(salestarget)">
+                            <i class="icon ion-compose padding-right"></i>Notes
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetActivities(salestarget)">
+                            <i class="icon ion-arrow-expand padding-right"></i>Activities
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetQuotes(salestarget)">
+                            <i class="icon ion-pricetag padding-right"></i>Quotes
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetDeals(salestarget)">
+                            <i class="icon ion-link padding-right"></i>Deals
+                        </button>
+                        <hr>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetAddresses(salestarget)">
+                            <i class="icon ion-android-locate padding-right"></i>Addresses
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetPhoneNumbers(salestarget)">
+                            <i class="icon ion-android-call padding-right"></i>Phone Numbers
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetEmailAddresses(salestarget)">
+                            <i class="icon ion-at padding-right"></i>Email Addresses
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetUris(salestarget)">
+                            <i class="icon ion-pound padding-right"></i>Uris
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetInstantMessengerAccounts(salestarget)">
+                            <i class="icon ion-android-chat padding-right"></i>Instant Messenger Accounts
+                        </button>
+                        <button class="button button-standard button-small" ng-click="onSalesTargetAttachments(salestarget)">
+                            <i class="icon ion-android-attach padding-right"></i>Attachments
+                        </button>
+                    </div>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+
+</ion-view>

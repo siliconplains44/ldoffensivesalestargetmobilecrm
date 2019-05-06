@@ -1,0 +1,81 @@
+﻿<ion-view view-title="Team Pipeline">
+    <ion-content class="padding">
+
+        <h3>Pipeline Counts</h3>
+        <hr />
+
+        <div class="card">
+            <div class="item item-text-wrap">
+                <h4>Prospects:  <span ng-bind="countprospects"></span></h4>
+                <h4>Leads:  <span ng-bind="countleads"></span></h4>
+                <h4>Opportunities:  <span ng-bind="countopportunities"></span></h4>
+                <h4>Accounts:  <span ng-bind="countaccounts"></span></h4>
+                <h4>Inactives:  <span ng-bind="countinactives"></span></h4>
+            </div>
+        </div>
+        <div class="list card">
+            <div class="padding">
+                <div id="chart"></div>
+            </div>
+        </div>
+
+        <h3>Sales Targets in Pipeline</h3>
+        <hr />
+
+        <div class="card">
+
+            <div class="list">
+
+                <div class="item item-divider">
+                    <i class="icon ion-iphone"></i>
+                    Prospects
+                </div>
+
+                <ion-item ng-repeat="salestarget in prospectsalestargets">
+                    <h2>Name: {{ salestarget.Name }}</h2>
+                </ion-item>
+
+                <div class="item item-divider">
+                    <i class="icon ion-heart"></i>
+                    Leads
+                </div>
+
+                <ion-item ng-repeat="salestarget in leadsalestargets">
+                    <h2>Name:  {{ salestarget.Name }}</h2>
+                </ion-item>
+
+                <div class="item item-divider">
+                    <i class="icon ion-person-stalker"></i>
+                    Opportunities
+                </div>
+
+                <ion-item ng-repeat="salestarget in opportunitysalestargets">
+                    <h2>Name:  {{ salestarget.Name }}</h2>
+                </ion-item>
+
+                <div class="item item-divider">
+                    <i class="icon ion-speedometer"></i>
+                    Accounts
+                </div>
+
+                <ion-item ng-repeat="salestarget in accountsalestargets">
+                    <h2>Name:  {{ salestarget.Name }}</h2>
+                </ion-item>
+
+                <div class="item item-divider">
+                    <i class="icon ion-sad-outline"></i>
+                    Inactives
+                </div>
+
+                <ion-item ng-repeat="salestarget in inactivesalestargets">
+                    <h2>Name:  {{ salestarget.Name }}</h2>
+                </ion-item>
+
+
+
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

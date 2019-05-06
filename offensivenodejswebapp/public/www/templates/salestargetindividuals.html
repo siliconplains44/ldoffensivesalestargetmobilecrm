@@ -1,0 +1,50 @@
+﻿<ion-view view-title="Individuals">
+    <ion-content class="padding">
+        <div class="list">
+            <div class="item item-divider">
+                Sales Target:
+            </div>
+            <div class="item item-text-wrap">
+                <p ng-bind-html="currentSalesTarget"></p>
+            </div>
+        </div>
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddSalesTargetIndividual()">Add Individual</button>
+        <ion-list class="item-text-wrap">
+            <ion-item ng-repeat="individual in individuals">
+                <h2 class="padding">{{individual.FirstName}} {{individual.LastName}}</h2>
+                <button class="button button-standard button-small" ng-click="onEditIndividual(individual)">
+                    <i class="icon ion-compose padding-right"></i>Edit
+                </button>
+                <button class="button button-standard button-small" ng-click="onDeleteIndividual(individual)">
+                    <i class="icon ion-ios-minus padding-right"></i>Delete
+                </button>
+                <hr>
+                <button class="button button-standard button-small" ng-click="onIndividualNotes(individual)">
+                    <i class="icon ion-compose padding-right"></i>Notes
+                </button>
+                <button class="button button-standard button-small" ng-click="onIndividualActivities(individual)">
+                    <i class="icon ion-arrow-expand padding-right"></i>Activities
+                </button>
+                <hr>
+                <button class="button button-standard button-small" ng-click="onIndividualAddresses(individual)">
+                    <i class="icon ion-android-locate padding-right"></i>Addresses
+                </button>
+                <button class="button button-standard button-small" ng-click="onIndividualPhoneNumbers(individual)">
+                    <i class="icon ion-android-call padding-right"></i>Phone Numbers
+                </button>
+                <button class="button button-standard button-small" ng-click="onIndividualEmailAddresses(individual)">
+                    <i class="icon ion-at padding-right"></i>Email Addresses
+                </button>
+                <button class="button button-standard button-small" ng-click="onIndividualUris(individual)">
+                    <i class="icon ion-pound padding-right"></i>Uris
+                </button>
+                <button class="button button-standard button-small" ng-click="onIndividualInstantMessengerAccounts(individual)">
+                    <i class="icon ion-android-chat padding-right"></i>Instant Messenger Accounts
+                </button>
+                <button class="button button-standard button-small" ng-click="onIndividualAttachments(individual)">
+                    <i class="icon ion-android-attach padding-right"></i>Attachments
+                </button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

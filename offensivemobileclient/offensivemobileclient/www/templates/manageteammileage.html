@@ -1,0 +1,45 @@
+﻿<ion-view view-title="Manage Team Mileage">
+    <ion-content class="padding">
+
+        <ion-list>
+            <ion-radio ng-model="choice" ng-value="'not'" ng-click="onShowMileageLogEntriesNotReimbursed()">Mileage not reimbursed</ion-radio>
+            <ion-radio ng-model="choice" ng-value="'is'" ng-click="onShowMileageLogEntriesReimbursed()">Mileage reimbursed</ion-radio>
+        </ion-list>
+
+        <div ng-show="shownotreimbursed">
+            <h4>Mileage Not Reimbursed</h4>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="notreimbursedmileagelogentry in notreimbursedmileagelogentries">
+                    <h2>Handle (From): {{ notreimbursedmileagelogentry.handleName }}</h2>
+                    <pre>Description: {{notreimbursedmileagelogentry.Description}}</pre>
+                    <h2>Created: {{notreimbursedmileagelogentry.Created}}</h2>
+                    <h2>Occurred: {{notreimbursedmileagelogentry.Occurred}}</h2>
+                    <h2>Starting Mileage: {{notreimbursedmileagelogentry.StartingMileage}}</h2>
+                    <h2>Ending Mileage: {{notreimbursedmileagelogentry.EndingMileage}}</h2>
+                    <ion-checkbox ng-model="notreimbursedmileagelogentry.ischecked">Reimburse</ion-checkbox>
+
+                </ion-item>
+            </ion-list>
+            <button class="button button-block button-standard icon-left" type="submit" ng-click="onSetReimbursed()">Set Selected Reimbursed</button>
+
+        </div>
+        <div ng-show="showreimbursed">
+            <h4>Mileage Reimbursed</h4>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="reimbursedmileagelogentry in reimbursedmileagelogentries">
+                    <h2>Handle (From): {{ reimbursedmileagelogentry.handleName }}</h2>
+                    <pre>Description: {{reimbursedmileagelogentry.Description}}</pre>
+                    <h2>Created: {{reimbursedmileagelogentry.Created}}</h2>
+                    <h2>Occurred: {{notreimbursedmileagelogentry.Occurred}}</h2>
+                    <h2>Starting Mileage: {{notreimbursedmileagelogentry.StartingMileage}}</h2>
+                    <h2>Ending Mileage: {{notreimbursedmileagelogentry.EndingMileage}}</h2>
+
+                    <ion-checkbox ng-model="reimbursedmileagelogentry.ischecked">Unreimburse</ion-checkbox>
+                </ion-item>
+            </ion-list>
+            <button class="button button-block button-standard icon-left" type="submit" ng-click="onSetNotReimbursed()">Set Selected Not Reimbursed</button>
+
+        </div>
+
+    </ion-content>
+</ion-view>

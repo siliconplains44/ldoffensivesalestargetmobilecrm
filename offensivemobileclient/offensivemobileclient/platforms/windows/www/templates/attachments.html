@@ -1,0 +1,26 @@
+﻿<ion-view view-title="Attachments">
+    <ion-content class="padding">
+        <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddAttachment()">Add Attachment</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="attachment in attachments">
+                    <button class="button button-standard button-small" ng-click="onOpenAttachment(attachment)">
+                        <i class="icon ion-ios-loop-strong padding-right"></i>Open
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteAttachment(attachment)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>                   
+                    <hr />
+                    <h3>Name:  {{attachment.Name}}</h3>
+                    <hr />
+                    <h4>Description:  {{attachment.Description}}</h4>
+                    <hr />
+                    <h4>Filename:  {{attachment.Filename}}</h4>
+                    <hr />
+                    <h4>Size (bytes):  {{attachment.FileSizeInBytes}}</h4>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

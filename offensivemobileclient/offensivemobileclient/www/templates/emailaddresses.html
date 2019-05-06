@@ -1,0 +1,22 @@
+﻿<ion-view view-title="Email Addresses">
+    <ion-content class="padding">
+         <button class="button icon-left ion-star button-standard button-small button-block" ng-click="onAddEmailAddress()">Add Email Address</button>
+
+        <div>
+            <ion-list class="item-text-wrap">
+                <ion-item ng-repeat="emailaddress in emailaddresses">
+                    <button class="button button-standard button-small" ng-click="onEditEmailAddress(emailaddress)">
+                        <i class="icon ion-compose padding-right"></i>Edit
+                    </button>
+                    <button class="button button-standard button-small" ng-click="onDeleteEmailAddress(emailaddress)">
+                        <i class="icon ion-ios-minus padding-right"></i>Delete
+                    </button>
+                    <hr />
+                    <h3>{{emailaddress.Address}}</h3>
+                    <hr />
+                    <h4>{{emailaddress.Type}}</h4>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-view>

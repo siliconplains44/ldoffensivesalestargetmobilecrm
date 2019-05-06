@@ -1,0 +1,9 @@
+﻿<ion-view view-title="Leopard Data Sales Target - Action Choices" name="actionchoices-view" hide-back-button="true">
+    <ion-content class="padding">
+        <div>
+            <ion-radio name="choice" ng-model="$parent.choice" value="join">Join and existing team...</ion-radio>
+            <ion-radio name="choice" ng-model="$parent.choice" value="create">Create a team...</ion-radio>
+        </div>
+        <button class="button button-block button-standard" ng-click="onRunAction()">Lets Go!!!</button>
+    </ion-content>
+</ion-view>
