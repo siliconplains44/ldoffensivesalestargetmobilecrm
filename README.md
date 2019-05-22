@@ -3,6 +3,8 @@ Mobile CRM Hybrid Application with Node.js Web Service
 
 This project is a mobile crm application I wrote with a hybrid mobile front end and a node.js back end.
 
+To see screen shots of the app working, please visit https://help.leoparddata.com, and click on sales target.
+
 Projects contained within this repo...
 
 offensivemobileclient - hybrid mobile client with angularjs and ionic framework.  This app can be compiled to run on both android and ios. We have the app deployed to the app stores under the marketing name of salestarget.
